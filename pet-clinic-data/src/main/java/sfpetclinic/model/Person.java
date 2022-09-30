@@ -1,4 +1,4 @@
-package dwanford.springframework.sfpetclinic.model;
+package sfpetclinic.model;
 
 public class Person {
 
