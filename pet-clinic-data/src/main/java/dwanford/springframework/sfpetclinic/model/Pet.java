@@ -1,4 +1,4 @@
-package sfpetclinic.model;
+package dwanford.springframework.sfpetclinic.model;
 
 import java.time.LocalDate;
 
