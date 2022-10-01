@@ -1,11 +1,11 @@
 package dwanford.springframework.sfpetclinic.services.map;
 
 import dwanford.springframework.sfpetclinic.model.Vet;
-import dwanford.springframework.sfpetclinic.services.CrudService;
+import dwanford.springframework.sfpetclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService {
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
