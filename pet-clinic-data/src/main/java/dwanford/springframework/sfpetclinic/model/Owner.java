@@ -5,17 +5,17 @@ import java.util.Set;
 
 public class Owner extends Person{
 
-    private String adress;
+    private String address;
     private String city;
     private String telephone;
     private Set<Pet> pets = new HashSet<>();
 
-    public String getAdress() {
-        return adress;
+    public String getAddress() {
+        return address;
     }
 
-    public void setAdress(String adress) {
-        this.adress = adress;
+    public void setAddress(String address) {
+        this.address = address;
     }
 
     public String getCity() {

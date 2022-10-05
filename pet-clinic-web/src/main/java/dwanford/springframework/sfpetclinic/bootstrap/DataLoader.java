@@ -60,7 +60,7 @@ public class DataLoader implements CommandLineRunner {
         Owner owner1 = new Owner();
         owner1.setFirstName("Michael");
         owner1.setLastName("Weston");
-        owner1.setAdress("str. S. Bandera 1");
+        owner1.setAddress("str. S. Bandera 1");
         owner1.setCity("Ternopil");
         owner1.setTelephone("122233112233");
 
@@ -76,7 +76,7 @@ public class DataLoader implements CommandLineRunner {
         Owner owner2 = new Owner();
         owner2.setFirstName("Fiona");
         owner2.setLastName("Glenanne");
-        owner2.setAdress("str. S. Bandera 3");
+        owner2.setAddress("str. S. Bandera 3");
         owner2.setCity("Ternopil");
         owner2.setTelephone("1222355513");
 
