@@ -2,9 +2,11 @@ package dwanford.springframework.sfpetclinic.services.map;
 
 import dwanford.springframework.sfpetclinic.model.Visit;
 import dwanford.springframework.sfpetclinic.services.VisitService;
+import org.springframework.stereotype.Service;
 
 import java.util.Set;
 
+@Service
 public class VisitServiceMap extends AbstractMapService<Visit, Long> implements VisitService {
 
 
