@@ -9,7 +9,7 @@ executors:
           username: $DOCKER_HUB_USER
           password: $DOCKER_HUB_PASSWORD
 jobs:
-  maven-tests:
+  tests:
 
     executor: my-custom-executor
     steps:
@@ -18,6 +18,6 @@ jobs:
           mvn install
 
 workflows:
-  my-custom-workflow:
+  tests-workflow:
     jobs:
       - tests
