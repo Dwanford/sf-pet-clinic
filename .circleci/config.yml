@@ -9,23 +9,16 @@ executors:
           username: $DOCKER_HUB_USER
           password: $DOCKER_HUB_PASSWORD
 jobs:
-  maven-install:
+  build:
 
     executor: main-executor
     steps:
       - checkout
       - run: |
-          mvn install
-
-  tests:
-
-    executor: main-executor
-    steps:
-      - run: |
+          mvn install -DskipTests
           mvn integration-test
 
 workflows:
   tests-workflow:
     jobs:
-      - maven-install
-      - tests
+      - build
