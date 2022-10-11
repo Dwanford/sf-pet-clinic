@@ -1,6 +1,6 @@
 version: 2.1
 executors:
-  my-custom-executor:
+  main-executor:
     docker:
       - image: cimg/openjdk:18.0
         auth:
